@@ -1,0 +1,28 @@
+App Documentation
+
+------------------
+Class name: QuantumGate
+Public Methods: public QuantumGate QuantumGate.multiply(QuantumGate)
+public void QuantumGate.setCellValue(int,int,double)
+public double QuantumGate.getCellValue(int,int)
+Public Constructors: public QuantumGate(int)
+------------------
+Class name: NewtonAlgorithm
+Public Methods: public double[] NewtonAlgorithm.calculateEigenvalues()
+Public Constructors: public NewtonAlgorithm(QuantumGate,double[])
+------------------
+Class name: NeuralNetwork
+Public Methods: public void NeuralNetwork.setCellValue(int,int,double)
+public double NeuralNetwork.getCellValue(int,int)
+public void NeuralNetwork.multiplyQuantumGate(QuantumGate)
+public double[] NeuralNetwork.calculateEigenvalues()
+Public Constructors: public NeuralNetwork(QuantumGate,double[])
+------------------
+Class name: QuantumAlgorithm
+Public Methods: public void QuantumAlgorithm.calculateAndApplyEigenvalues()
+public void QuantumAlgorithm.trainNeuralNetwork()
+Public Constructors: public QuantumAlgorithm(QuantumGate,double[])
+------------------
+Class name: Main
+Public Methods: public static void Main.main(java.lang.String[])
+Public Constructors: public Main()
